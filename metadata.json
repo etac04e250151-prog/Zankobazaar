@@ -1,0 +1,8 @@
+{
+  "name": "Remix Zankobazaar - زانکۆ بازاڕ",
+  "description": "Smart academic marketplace for university students and faculty to buy, sell, and exchange books, lab gear, electronics, and services powered by Gemini AI in Kurdish, Arabic, and English.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

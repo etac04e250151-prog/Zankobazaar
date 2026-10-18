@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ku" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zankobazaar - زانکۆ بازار | Academic Student Marketplace</title>
+    <meta name="description" content="Smart academic marketplace for university students and faculty to buy, sell, and exchange books, lab gear, electronics, and services powered by Gemini AI in Kurdish, Arabic, and English." />
+    <meta property="og:title" content="Zankobazaar - زانکۆ بازار | Academic Student Marketplace" />
+    <meta property="og:description" content="Smart academic marketplace for university students and faculty to buy, sell, and exchange books, lab gear, electronics, and services powered by Gemini AI in Kurdish, Arabic, and English." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&family=Noto+Sans+Arabic:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+      // Cleanly suppress Vite HMR WebSocket connection noise in iframe environment
+      (function() {
+        const origWarn = console.warn;
+        const origError = console.error;
+        console.warn = function(...args) {
+          if (args[0] && typeof args[0] === 'string' && args[0].includes('[vite]')) return;
+          origWarn.apply(console, args);
+        };
+        console.error = function(...args) {
+          if (args[0] && typeof args[0] === 'string' && (args[0].includes('[vite]') || args[0].includes('WebSocket'))) return;
+          origError.apply(console, args);
+        };
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+  
+
